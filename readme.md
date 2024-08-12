@@ -31,7 +31,7 @@
 
 ---
 
-Подключаемся крепозиторию на [GITHUB](https://github.com)"github.com"
+Подключаемся крепозиторию на [GITHUB](https://github.com "github.com")
 
 git remote add origin git@github.com:Shurshun2020/my_git.git
 
@@ -46,10 +46,8 @@ git remote add origin git@github.com:Shurshun2020/my_git.git
 В дальнейшем повторяем связку команд:
 
 
-`git add .  
-
-git commit -m "каждый коммит коментируем обязательно чтобы было понятно"  
-
+`git add .  \
+git commit -m "каждый коммит коментируем обязательно чтобы было понятно"  \
 git push -u origin master`  
 
 И не забываем проверять статус репозитория:
