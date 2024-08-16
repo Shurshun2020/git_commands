@@ -60,7 +60,7 @@ git push -u origin master`
 В дальнейшем повторяем связку команд:
 
 
-``` bash
+```bash
 git add .  
 git commit -m "каждый коммит коментируем обязательно чтобы было понятно"  
 git push -u origin master
@@ -72,5 +72,21 @@ git push -u origin master
 
 ---
 
-## Пока всё.
+## Внесение изменений.
+
+---
+
+Для исправления примечания к коммиту, надо выполнить ** --amend**
+
+```bash
+git commit --amend -m "Исправленное примечание."
+``` 
+---
+
+Для добавления файла в уже состоявшейся коммит
+
+```bash
+git add zabitiyfail.txt
+git commit --amend --no-edit
+``` 
 
