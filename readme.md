@@ -97,4 +97,25 @@ git commit --amend --no-edit
 
 ---
 
+ __Убирать__ файлы из списка коммита.
+ 
+```bash
+git restore --staged <file>
+
+git reset HEAD
+```
+
+ __Откатить__ историю (всё и репозиторий и файлы) до указанного коммита.
+
+```bash
+git reset --hard <commit hash>
+
+```
+
+
+__Восстановить__  файл до последней сохраненной версии
+```bash
+git restore <file>
+git checkout -- <file>
+```
 
