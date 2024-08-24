@@ -120,14 +120,14 @@ git checkout -- <file>
 ```
 
 ---
-##Просмотр изменений
 
+##Просмотр изменений
 
  Просмотр изменений в файлах
 
 '''bash
 Git diff 
 и
- git diff --staged
+git diff --staged
 '''
 
