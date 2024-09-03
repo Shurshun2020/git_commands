@@ -156,3 +156,17 @@ git branch
 ```
 _текущая ветка будет помечена символом * - звездочка_
 
+ 
+
+**Cоздать ветку**
+
+```bash
+git branch %BRANCH_NAME%
+```
+**Переход в ветку**
+```bash
+git checkout %BRANCH_NAME%
+```
+
+
+
