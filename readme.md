@@ -167,6 +167,9 @@ git branch %BRANCH_NAME%
 ```bash
 git checkout %BRANCH_NAME%
 ```
-
+**Создать ветку и сразу переключиться на неё**
+```bash
+git checkout -b <название_ветки>
+```
 
 
