@@ -46,6 +46,11 @@ git commit -m "каждый коммит коментируем обязател
 git remote add origin git@github.com:Shurshun2020/my_git.git
 ```
 
+Если нужно отключить локальный репозиторий от удалённого то выполняется команда
+```bash
+git remote rm origin 
+```
+
 ---
 
 Добавляем все изменения в удаленном репозитории на [github]:https://github.com/Shurshun2020/my_git __Эту команду надо будет периодически повторять__
