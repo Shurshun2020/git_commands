@@ -187,6 +187,18 @@ git checkout master
 ```bash
 git merge <ветка с изменениями>
 ```
+---
+## Загрузка с удалённого репозитория
+Для загрузки с удаленного репозитория используется команда __git pull__
+Последовательность действий следующая:
+```bash
+ git checkout main # перешли в локальную ветку main
+ git pull # подтянули новые изменения в main
+ git branch my-branch # создали новую ветку 
+ git checkout my-branch # вернулись в локальную рабочую ветку my-branch
+ git merge main # влили main в новую ветку my-branch
+ git push -u origin my-branch # отправили ветку my-branch в удалённый репозиторий 
+```
 
 # Игнорирование файлов
 
