@@ -40,7 +40,7 @@ git commit -m "каждый коммит коментируем обязател
 
 ---
 
-Подключаемся крепозиторию на [GITHUB](https://github.com "github.com")
+Подключаемся к репозиторию на [GITHUB](https://github.com "github.com")
 
 ```bash
 git remote add origin git@github.com:Shurshun2020/my_git.git
@@ -74,6 +74,12 @@ git push -u origin master
 И не забываем проверять статус репозитория:
 
 `git status`
+
+**Для добавления локальной ветки в удалённый репозиторий**
+```bash
+git push -u origin <имя_ветки>
+```
+
 
 ---
 
